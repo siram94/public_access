@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Public Service Scanner</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+		<div id = "showBar" class="center" >
+			<button id="myT" class="center" onmousedown="showBar()">SHOW</button>
+		</div>
+
+		<div id = "controlBar" class="center" >
+				<input type="file"   class="center" id="fileToLoad"><br>
+				<div id="inputTextToSave" resize:both ></div>     
+				<div id="fileToLoad"></div>    
+      		
+			<!--
+			    <button id=record  class="center" ></button>
+				
+      			<button id=stopRecord  class="center" ></button> 
+			-->  
+				  <button id="myP"  class="center"  onmousedown="mouseDown()" onmouseup="mouseUp()"> TALK/SEND	</button>
+				  <button id="myQ"  class="center"  onmousedown="playBack()">PLAY BACK</button>
+				 
+				  <button id="myS"  class="center"  onmousedown="fullScan()">LOOP</button>
+			<!--	  <input type="text" class="center" id="myText" value="start.jpg"> -->
+		<!--	  <button id="myS"  class="center"  onmousedown="loadFileAsText()">LOAD</button>-->	
+				  
+				                     
+				  <button id="myT" class="center" onmousedown="hideBar()">HIDE</button>
+				  <audio id=recordedAudio class="center" ></audio>
+			</div>
+				 <!-- <canvas id="canvas"></canvas> -->	
+			
+
+			
+					
+
+					<div id= "imageBar">
+						<img id="myImage"   class="center_full"  src="data/start.jpg"style="width = 90%">
+					</div>
+			 
+			    
+				<!--  <div id=recordings style="background-color:pink">relay</div> -->
+					
+<!-- partial -->
+
+  <script  src="script6.js"></script> 
+  <script>  </script>
+
+</body>
+</html>
+ 
