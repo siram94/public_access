@@ -1,13 +1,34 @@
 .body {
     width: 100%; 
+    
   }
   
   .center {
-    
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-bottom: 3px;
+    width: 50%;
+    box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	  background-color:#a73f2d;
+	  border:4px solid #241d13;
+	  display:inline-block;
+	  cursor:pointer;
+	  color:#ffffff;
+	  font-family:Arial;
+	  font-size:15px;
+	  font-weight:bold;
+	  padding:9px 23px;
+	  text-decoration:none;
+	
+}
+.myButton:hover {
+	background-color:#b34332;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+
     }
   
     .center_full {
@@ -44,6 +65,10 @@
   #showBar{
   display: none;
   }
+ 
+
+
+
   
   
   
