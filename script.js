@@ -164,3 +164,10 @@ navigator.mediaDevices.getUserMedia({audio:true})
                  // record.style.backgroundColor = "red"
                   rec.stop();
                 }
+
+
+                function deletePicture(){
+                  let imageBar = document.getElementById('imageBar');
+                  imageBar.remove();
+                }
+                
