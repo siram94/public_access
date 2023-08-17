@@ -36,22 +36,27 @@
   overflow: scroll;
   background-color: rgb(241, 187, 219);
   /* align-items: ; */
+  font-weight: bold;
+  color: #a19ea1;
+  text-shadow: 3px 3px 3px black;
+  font-size: 40px;
 }
 
 .modal-content {
+
   padding: 20px;
   padding-top: 1px;
   line-height: 1;
 }
 
 .close {
-  color: rgb(250, 246, 246);
+  color: rgb(247, 243, 243);
   /* float: left; */
   font-size: 25px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 auto;
-  margin-top: 0px;
+  margin-top: 1px;
 }
 
 .close:hover,
