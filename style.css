@@ -135,3 +135,10 @@
 html {
   background-color: #f7e2f7;
 }
+p{
+  font-weight: bold;
+  color: #fbfafb;
+  text-shadow:3px 3px 3px #0a0a0a;
+  font-size:xx-large;
+
+}
